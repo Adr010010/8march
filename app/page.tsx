@@ -7,7 +7,7 @@ export default function Page() {
       <div className="mx-auto max-w-7xl grid md:grid-cols-[400px_1fr] gap-4 rounded-3xl bg-gray-600 text-white overflow-hidden">
         <div className="relative p-8 bg-pink rounded-2xl">
           <div className="space-y-6">
-            <h1 className="text-7xl font-light tracking-wider text-gray-300">March</h1>
+            <h1 className="text-7xl font-light tracking-wider text-gray-300">8-March</h1>
             <div className="space-y-4">
               <h2 className="text-2xl font-medium text-pink-300">Дорогие девушки!</h2>
               <p className="text-gray-300 leading-relaxed">
