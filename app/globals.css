@@ -114,3 +114,38 @@ body {
     font-size: 14px;
   }
 }
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .responsive-container {
+    padding: 8px;
+  }
+
+  .button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  .header, .footer {
+    height: 40px;
+  }
+}

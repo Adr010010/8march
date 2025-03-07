@@ -22,7 +22,7 @@ export default function ArailymPage() {
           <div className="mt-8 grid md:grid-cols-[300px_1fr] gap-8">
             <div className="rounded-2xl overflow-hidden">
               <Image
-                src="/photo_2025-02-22_09-53-30 1.png"
+                src="/photo_2025-03-07_20-50-09.jpg"
                 alt="Арайлым"
                 width={300}
                 height={400}

@@ -24,7 +24,7 @@ export default function Page() {
           <div className="mt-8 grid md:grid-cols-[300px_1fr] gap-8">
             <div className="rounded-2xl overflow-hidden">
               <Image
-                src='/photo_2025-02-22_13-52-31.jpg'
+                src='/photo_2025-03-07_20-51-49.jpg'
                 alt="Student"
                 width={300}
                 height={400}
