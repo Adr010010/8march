@@ -108,11 +108,12 @@ body {
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border bg-transparent;
   }
   body {
-    @apply bg-background text-foreground antialiased;
+    @apply bg-background text-foreground antialiased bg-cover bg-center bg-no-repeat;
     padding: var(--spacing-mobile);
+    background-image: url('/public/imgPhoto/665373f6-de3c-43c1-a77d-96a6ac64f95d.jpeg');
     
     @media (min-width: 600px) {
       padding: var(--spacing-tablet);

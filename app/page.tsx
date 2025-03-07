@@ -3,9 +3,9 @@ import { NavBar } from "@/components/nav-bar"
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-gray-700 p-4 md:p-8">
-      <div className="mx-auto max-w-7xl grid md:grid-cols-[400px_1fr] gap-4 rounded-3xl bg-gray-600 text-white overflow-hidden">
-        <div className="relative p-8 bg-pink rounded-2xl">
+    <div className="min-h-screen bg-cover bg-center bg-no-repeat p-4 md:p-8" style={{ backgroundImage: "url('/photo_2025-03-07_20-51-49.jpg)" }}>
+      <div className="mx-auto max-w-7xl grid md:grid-cols-[400px_1fr] gap-4 rounded-3xl bg-gray-600 bg-opacity-50 text-white overflow-hidden">
+        <div className="relative p-8 bg-pink bg-opacity-50 rounded-2xl">
           <div className="space-y-6">
             <h1 className="text-7xl font-light tracking-wider text-gray-300">8-March</h1>
             <div className="space-y-4">
@@ -19,7 +19,7 @@ export default function Page() {
           <div className="absolute bottom-8 left-8">
           </div>
         </div>
-        <div className="p-6">
+        <div className="p-6 bg-opacity-90">
           <NavBar />
           <div className="mt-8 grid md:grid-cols-[300px_1fr] gap-8">
             <div className="rounded-2xl overflow-hidden">

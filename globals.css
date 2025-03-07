@@ -59,3 +59,14 @@
   }
 }
 
+@layer base {
+  body {
+    @apply bg-cover bg-center bg-no-repeat;
+    background-image: url('/public/imgPhoto/665373f6-de3c-43c1-a77d-96a6ac64f95d.jpeg');
+  }
+
+  * {
+    @apply bg-transparent;
+  }
+}
+

@@ -3,11 +3,11 @@ import { NavBar } from "@/components/nav-bar"
 
 export default function AdinaPage() {
   return (
-    <div className="min-h-screen bg-gray-700 p-4 md:p-8">
-      <div className="mx-auto max-w-7xl grid md:grid-cols-[400px_1fr] gap-4 rounded-3xl bg-gray-600 text-white overflow-hidden">
-        <div className="relative p-8 bg-gray-800 rounded-2xl">
+    <div className="min-h-screen bg-cover bg-center bg-no-repeat p-4 md:p-8" style={{ backgroundImage: "url('/public/imgPhoto/665373f6-de3c-43c1-a77d-96a6ac64f95d.jpeg')" }}>
+      <div className="mx-auto max-w-7xl grid md:grid-cols-[400px_1fr] gap-4 rounded-3xl bg-gray-600 bg-opacity-50 text-white overflow-hidden">
+        <div className="relative p-8 bg-gray-800 bg-opacity-50 rounded-2xl">
           <div className="space-y-6">
-            <h1 className="text-7xl font-light tracking-wider text-gray-300">March</h1>
+            <h1 className="text-7xl font-light tracking-wider text-gray-300">8 - March</h1>
             <div className="space-y-4">
               <h2 className="text-2xl font-medium text-pink-300">Дорогие девушки!</h2>
               <p className="text-gray-300 leading-relaxed">
@@ -17,7 +17,7 @@ export default function AdinaPage() {
             </div>
           </div>
         </div>
-        <div className="p-6">
+        <div className="p-6 bg-opacity-50">
           <NavBar />
           <div className="mt-8 grid md:grid-cols-[300px_1fr] gap-8">
             <div className="rounded-2xl overflow-hidden">
